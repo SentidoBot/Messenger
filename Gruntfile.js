@@ -22,6 +22,7 @@ module.exports = grunt => {
             dev: {
                 script: 'app/index.js',
                 options: {
+                    args: ['--trace-sync-io'],
                     callback: nodemon => nodemon.on('log', event => console.log(event.colour)),
                     env: {
                         NODE_ENV: grunt.option('env') || 'local',
