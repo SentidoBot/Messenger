@@ -1,2 +1,2 @@
 # Messenger
-Senti.do for Messenger
+Senti.do for Messenger.

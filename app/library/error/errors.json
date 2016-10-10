@@ -1,0 +1,15 @@
+{
+    "401": {
+        "10": "The provided email address is not valid.",
+        "11": "The provided username is not valid."
+    },
+    "403": {
+        "10": "The provided authorization is not valid."
+    },
+    "404": {
+        "10": "The requested resource could not be found."
+    },
+    "500": {
+        "10": "An unexpected error has occurred, we are on it!"
+    }
+}
